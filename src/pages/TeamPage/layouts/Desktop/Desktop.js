@@ -2,10 +2,11 @@ import React, { Component, Fragment } from 'react';
 import team from '../../../../database/team/arr';
 import { css } from 'aphrodite';
 import styles from './styles';
+import './Desktop.css';
 
 export default class Desktop extends Component {
   renderTeam = () => {
-    const filler = (<div style={{height: '100%', width: 340, backgroundColor: 'white', flexShrink: 0,}} />)
+    
     return(
       <Fragment>
         {team.map((member, i)=>(
@@ -22,7 +23,7 @@ export default class Desktop extends Component {
             </div>
           </div>
         ))}
-        { filler }
+        
       </Fragment>
     )
   }

@@ -1,21 +1,23 @@
 import { StyleSheet } from 'aphrodite';
-const oneForth = window.innerWidth/4;
 const styles = StyleSheet.create({
     page: {
       height: '100%',
-      width: '100%',
+      width: '100vw',
       display: 'flex',
       alignItems: 'center'
     },
     teamWrap: {
-      height: '560px',
+      height: '540px',
       width: window.innerWidth,
       backgroundColor: 'white',
       display: 'flex',
       flexDirection: 'row',
       overflow: 'scroll',
+      overflowY: 'hidden',
       boxSizing: 'border-box',
-      padding: `0 0  0 ${oneForth}px`
+      padding: `0 0  0 0`,
+      marginLeft: '30vw',
+      marginTop: '10vh'
     },
     member: {
       height: '100%',

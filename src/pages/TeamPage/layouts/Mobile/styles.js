@@ -1,5 +1,5 @@
 import { StyleSheet } from 'aphrodite';
-const imgWidth = window.innerWidth*75/100;
+const imgWidth = '75vw';
 const imgHeight = imgWidth;
 const styles = StyleSheet.create({
     page: {
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     },
     member: {
       height: '100%',
-      width: window.innerWidth*80/100,
+      width: '80vw',
       flexShrink: 0,
       display: 'flex',
       flexDirection: 'column',
