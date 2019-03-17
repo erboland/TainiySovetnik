@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/1.2e09e796.jpg"
   },
   {
-    "revision": "6e6cfea621ae6214aba4",
+    "revision": "0f97b70ba7d1aafc7766",
     "url": "/TainiySovetnik/static/css/main.4deccc4b.chunk.css"
   },
   {
@@ -152,8 +152,8 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/logo_main_black.0e5e63c4.svg"
   },
   {
-    "revision": "6e6cfea621ae6214aba4",
-    "url": "/TainiySovetnik/static/js/main.6e6cfea6.chunk.js"
+    "revision": "0f97b70ba7d1aafc7766",
+    "url": "/TainiySovetnik/static/js/main.0f97b70b.chunk.js"
   },
   {
     "revision": "db81ccd667186762a64adb93493c19ea",
@@ -208,16 +208,20 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.9670f343.woff"
   },
   {
-    "revision": "0880836d4f0d1d7434602f6adf1f7f50",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.0880836d.svg"
-  },
-  {
     "revision": "40e8fc321e0e4039f48ffddce94696ca",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.40e8fc32.eot"
   },
   {
+    "revision": "a238b5332368fa8ecd97667250b650ba",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.a238b533.eot"
+  },
+  {
     "revision": "068c565aedc22687a8522e9a5b328d10",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Heavy.068c565a.woff"
+  },
+  {
+    "revision": "0880836d4f0d1d7434602f6adf1f7f50",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.0880836d.svg"
   },
   {
     "revision": "7942efce004239cf6de381405bc5f8a1",
@@ -236,6 +240,10 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.794456ba.svg"
   },
   {
+    "revision": "8814c349e83afa9f8860eab882f2fa09",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8814c349.woff"
+  },
+  {
     "revision": "fa14a42a8d72f101e7dd867abc7f0d46",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.fa14a42a.eot"
   },
@@ -248,6 +256,10 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Light.c08e2d11.svg"
   },
   {
+    "revision": "51a338fc35d07a92df83d679eba5a19e",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.51a338fc.woff"
+  },
+  {
     "revision": "71d685cfec33c6cb7e81335bf63d9ea6",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.71d685cf.eot"
   },
@@ -256,20 +268,16 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8842d02e.svg"
   },
   {
-    "revision": "51a338fc35d07a92df83d679eba5a19e",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.51a338fc.woff"
-  },
-  {
-    "revision": "2deead4582f5c9e47e2f8b93873a9bf2",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.2deead45.eot"
+    "revision": "770caa5f454400d26b6eaccae2271cca",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Thin.770caa5f.woff"
   },
   {
     "revision": "09ca61642b3a3e8fef7095a68f6809a2",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.09ca6164.svg"
   },
   {
-    "revision": "770caa5f454400d26b6eaccae2271cca",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Thin.770caa5f.woff"
+    "revision": "2deead4582f5c9e47e2f8b93873a9bf2",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.2deead45.eot"
   },
   {
     "revision": "5c2e7bd7046ba2c280aaa19a1c5bc909",
@@ -284,14 +292,6 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Ultralight.206e9291.woff"
   },
   {
-    "revision": "8814c349e83afa9f8860eab882f2fa09",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8814c349.woff"
-  },
-  {
-    "revision": "a238b5332368fa8ecd97667250b650ba",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.a238b533.eot"
-  },
-  {
     "revision": "81b1759759479d7181db490227199914",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Ultralight.81b17597.eot"
   },
@@ -304,7 +304,7 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Ultralight.71748160.svg"
   },
   {
-    "revision": "49138f953ebae0bbe496dc803934492d",
+    "revision": "14853d598fd22cd402bd622481ec63c1",
     "url": "/TainiySovetnik/index.html"
   }
 ];

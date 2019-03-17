@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TainiySovetnik/precache-manifest.bbe758e7053b5d9c2e51abe852b0b501.js"
+  "/TainiySovetnik/precache-manifest.6b876f47e3c14fc0818387010d1cf51b.js"
 );
 
 workbox.clientsClaim();
