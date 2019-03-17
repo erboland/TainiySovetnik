@@ -30,19 +30,19 @@ const styles = StyleSheet.create({
     },
     t1: {
       fontFamily: "SFUIDisplay-Bold",
-      fontSize: 26,
+      fontSize: '4vh',
       padding: '0 10px',
       color: "#FF0000"
     },
     t2: {
       fontFamily: "SFUIDisplay-Regular",
-      fontSize: 14,
+      fontSize: '3vh',
       marginBottom: 10,
       padding: '0 10px'
     },
     t3: {
       fontFamily: "SFUIDisplay-Regular",
-      fontSize: 14,
+      fontSize: '2vh',
       padding: '0 10px'
     }
 });

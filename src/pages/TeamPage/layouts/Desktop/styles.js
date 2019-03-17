@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     teamWrap: {
-      height: '540px',
+      height: '60vh',
       width: window.innerWidth,
       backgroundColor: 'white',
       display: 'flex',
@@ -21,18 +21,18 @@ const styles = StyleSheet.create({
     },
     member: {
       height: '100%',
-      width: '360px !important',
+      width: '40vh !important',
       flexShrink: 0
     },
     main: {
       width: '100%',
-      height: 360,
+      height: '40vh',
       position: 'relative'
     },
     img: {
       position: 'absolute',
-      height: 360,
-      width: 360,
+      height: '40vh',
+      width: '40vh',
       zIndex: 10,
       ':hover':{
         opacity: 0
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       padding: 10,
       fontFamily: "SFUIDisplay-Regular",
-      fontSize: 20
+      fontSize: '2vh'
     },
     naming: {
       fontFamily: "SFUIDisplay-Bold",
@@ -60,10 +60,10 @@ const styles = StyleSheet.create({
       textAlign: 'center'
     },
     m_name: {
-      fontSize: 30
+      fontSize: '4vh'
     },
     m_title: {
-      fontSize: 20,
+      fontSize: '3vh',
       color: "#FF0000"
     }
 });
