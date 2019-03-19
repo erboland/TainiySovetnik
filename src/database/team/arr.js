@@ -34,9 +34,9 @@ const team = [
     job_ru: "Директор по работе с клиентами",
     job_en: "Group Account Director",
     desc_ru:
-      "Про эстетику: управляет командой account-менеджеров и выстраивает долгосрочные отношения с клиентами в сфере FMCG и ритейла, консультирует клиентов по event-management и digital коммуникациям",
+      "Про эстетику: управляет командой account-менеджеров и выстраивает долгосрочные отношения с клиентами в сфере FMCG и ритейла, консультирует клиентов по event-management и digital коммуникациям.",
     desc_en:
-      "Aesthetics: manages a team of account managers and builds long-term relationships with FMCG and retail clients, leads event management and digital communications teams",
+      "Aesthetics: manages a team of account managers and builds long-term relationships with FMCG and retail clients, leads event management and digital communications teams.",
     pic: member1
   },
   {
@@ -47,7 +47,7 @@ const team = [
     desc_ru:
       "Про системность: ведет проекты для крупных корпоративных клиентов, консультирует клиентов по вопросам кризисных коммуникаций, взаимоотношениям со СМИ и государственным органам.",
     desc_en:
-      "Aesthetics: manages a team of account managers and builds long-term relationships with FMCG and retail clients, leads event management and digital communications teams",
+      "Consistency: leads projects for major corporate clients and advises on media relations, GR and crisis communications.",
     pic: member5
   },
   {
@@ -78,7 +78,7 @@ const team = [
     job_ru: "Менеджер по работе с клиентами",
     job_en: "Account Manager",
     desc_ru:
-      "Про новый бизнес: формирует банк данных о клиентах, изучает и анализирует рынок, разрабатывает схему взаимоотношений с перспективными клиентами, а также прогнозирует деловую надежность потенциальных клиентов",
+      "Про новый бизнес: формирует банк данных о клиентах, изучает и анализирует рынок, разрабатывает схему взаимоотношений с перспективными клиентами, а также прогнозирует деловую надежность потенциальных клиентов.",
     desc_en:
       "Growth: makes sure that the market knows us and that we know the market.",
     pic: member4

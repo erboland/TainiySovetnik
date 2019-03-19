@@ -42,30 +42,7 @@ export default class Text1 extends Component {
             decade, supporting its communications campaigns.
           </p>
         )}
-
-        <div className={css(styles.more)} onClick={this.openText}>
-          <p>{this.props.lang === 'ru' ? 'Еще' : 'More'}</p>
-          <Ionicons
-            icon="ios-arrow-down"
-            className={
-              this.state.isOpen ? css(styles.rotateDown) : css(styles.rotateUp)
-            }
-          />
-        </div>
-        <div
-          className={`${css(styles.hwrap)} ${
-            this.state.isOpen ? css(styles.hide) : css(styles.show)
-          }`}
-        >
-          <div className={css(styles.hwrapInside)}>
-            <p>
-              Incididunt veniam culpa do minim esse amet sit minim irure. Mollit
-              qui sunt id velit ullamco eu dolor id esse quis aliqua.
-              Adipisicing proident sunt quis nulla culpa minim duis sint officia
-              consectetur ad culpa.
-            </p>
-          </div>
-        </div>
+        
       </div>
     );
   }

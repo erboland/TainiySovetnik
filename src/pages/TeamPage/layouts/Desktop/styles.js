@@ -11,13 +11,13 @@ const styles = StyleSheet.create({
       width: window.innerWidth,
       backgroundColor: 'white',
       display: 'flex',
-      flexDirection: 'row',
-      overflow: 'scroll',
-      overflowY: 'hidden',
       boxSizing: 'border-box',
       padding: `0 0  0 0`,
       marginLeft: '30vw',
-      marginTop: '10vh'
+      marginTop: '10vh',
+      overflowX: 'scroll',
+      overflowY: 'hidden',
+      flexDirection: 'row'
     },
     member: {
       height: '100%',
@@ -60,10 +60,10 @@ const styles = StyleSheet.create({
       textAlign: 'center'
     },
     m_name: {
-      fontSize: '4vh'
+      fontSize: '3vh'
     },
     m_title: {
-      fontSize: '3vh',
+      fontSize: '2vh',
       color: "#FF0000"
     }
 });

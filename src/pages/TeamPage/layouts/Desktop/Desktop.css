@@ -1,10 +1,14 @@
- .horizontalScroll::-webkit-scrollbar {
-    width: 1226px;
-    height: 0;
-    border: 1px solid #000000;
-  }
-  .horizontalScroll::-webkit-scrollbar-track {
-    width: 110px;
-    height: 0;
-    border: 7px solid #000000;
-  }
+.teamWrap_4t6ux3::-webkit-scrollbar {
+    background-color: #F5F5F5;
+    height: 6px;
+}
+ 
+.teamWrap_4t6ux3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+ 
+.teamWrap_4t6ux3::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
