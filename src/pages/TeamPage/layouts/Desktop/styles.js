@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
       padding: `0 0  0 0`,
       marginLeft: '30vw',
       marginTop: '10vh',
-      overflowX: 'scroll',
+      // overflowX: 'scroll',
       overflowY: 'hidden',
       flexDirection: 'row'
     },
