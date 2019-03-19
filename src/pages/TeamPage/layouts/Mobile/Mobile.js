@@ -7,7 +7,9 @@ import HorizontalScroll from 'react-scroll-horizontal'
 export default class Mobile extends Component {
   render() {
     return (
+
       <div className={css(styles.page)}>
+      <HorizontalScroll reverseScroll="true">
         {team.map((member, i)=>(
           <div className={css(styles.member)} key={i}>
             <div style={{height: window.innerHeight*40/100}} className={css(styles.aye)}>
@@ -18,6 +20,8 @@ export default class Mobile extends Component {
             <img src={member.pic} alt="member" className={css(styles.memberPic)} />
           </div>
         ))}
+      </HorizontalScroll>
+       
       </div>
     )
   }

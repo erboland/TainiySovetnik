@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import team from '../../../../database/team/arr';
 import { css } from 'aphrodite';
 import styles from './styles';
-import ReactDOM from 'react-dom';
 import './Desktop.css';
 import HorizontalScroll from 'react-scroll-horizontal';
 
