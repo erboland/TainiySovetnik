@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import team from '../../../../database/team/arr';
 import { css } from 'aphrodite';
 import styles from './styles';
+import HorizontalScroll from 'react-scroll-horizontal'
 
 export default class Mobile extends Component {
   render() {

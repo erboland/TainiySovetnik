@@ -10,7 +10,7 @@ export default class Desktop extends Component {
     
     return(
       <Fragment>
-        <HorizontalScroll pageLock={true} reverseScroll={true} style={{'overflow':'scroll'}}>
+        <HorizontalScroll pageLock={true} reverseScroll={true} className="horizontalScroll">
           {team.map((member, i)=>(
             <div className={css(styles.member)} style={{ marginRight: 20 }} key={i}>
               <div className={css(styles.main)}>
