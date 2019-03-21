@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     },
     member: {
       height: '100%',
-      width: '100vw',
+      width: '90vw',
       flexShrink: 0,
       display: 'flex',
       flexDirection: 'column',

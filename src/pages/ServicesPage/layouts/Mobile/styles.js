@@ -55,9 +55,10 @@ const styles = StyleSheet.create({
         fontFamily: "SFUIDisplay-Bold",
     },
     btnWrap:{
-        position: 'absolute',
+        position: 'relative',
         bottom: "10px",
         marginLeft: "20px",
+        marginTop: '5vh',
         zIndex: 10
     },
     swiper:{

@@ -44,29 +44,30 @@ export default class Mobile extends Component {
             {arr.map(item=>{
               return(
                 <div key={item.index} className={css(styles.card)}>
-                <div className={css(styles.hWrap)}>
-                  <p className={css(styles.h)}>{this.props.lang === 'ru' ? item.name_ru : item.name_en}</p>
-                </div>
-                  <p className={css(styles.t)}>{this.props.lang === 'ru' ? item.text_ru : item.text_en}</p>
+                  <div className={css(styles.hWrap)}>
+                    <p className={css(styles.h)}>{this.props.lang === 'ru' ? item.name_ru : item.name_en}</p>
+                    <p className={css(styles.t)}>{this.props.lang === 'ru' ? item.text_ru : item.text_en}</p>
+                  </div>
+                  <div className={css(styles.btnWrap)}>
+                    <div className={css(styles.btnInside)}>
+                      {!this.state.isMenuOpen && (
+                        <p className={css(styles.back)} onClick={this.menuHandler}>
+                          {this.props.lang === 'ru' ? 'Назад' : 'Return'} 
+                        </p>
+                      )}
+                      {!this.state.isMenuOpen && (
+                        <p className={css(styles.next)} onClick={this.goNextHandler}>
+                          {this.props.lang === 'ru' ? 'Следующая' : 'Next'} 
+                        </p>
+                      )}
+                    </div>
+                  </div>
                 </div>
               )
             })}
           </Swiper>
         )}
-        <div className={css(styles.btnWrap)}>
-          <div className={css(styles.btnInside)}>
-            {!this.state.isMenuOpen && (
-              <p className={css(styles.back)} onClick={this.menuHandler}>
-                {this.props.lang === 'ru' ? 'Назад' : 'Return'} 
-              </p>
-            )}
-            {!this.state.isMenuOpen && (
-              <p className={css(styles.next)} onClick={this.goNextHandler}>
-                {this.props.lang === 'ru' ? 'Следующая' : 'Next'} 
-              </p>
-            )}
-          </div>
-        </div>
+        
       </div>
     );
   }

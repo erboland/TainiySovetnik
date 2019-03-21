@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import team from '../../../../database/team/arr';
 import { css } from 'aphrodite';
 import styles from './styles';
-import HorizontalScroll from 'react-scroll-horizontal'
+import '../Desktop/Desktop.css';
 
 export default class Mobile extends Component {
   render() {
     return (
 
       <div className={css(styles.page)}>
-      <HorizontalScroll reverseScroll="true" style={{width: '100vw'}}>
+      <div style={{width: '100vw'}} className="hScroll">
         {team.map((member, i)=>(
           <div className={css(styles.member)} key={i}>
             <div style={{height: window.innerHeight*40/100}} className={css(styles.aye)}>
@@ -20,7 +20,7 @@ export default class Mobile extends Component {
             <img src={member.pic} alt="member" className={css(styles.memberPic)} />
           </div>
         ))}
-      </HorizontalScroll>
+      </div>
        
       </div>
     )

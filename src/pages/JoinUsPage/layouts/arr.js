@@ -35,9 +35,9 @@ const principles = [
     titile_ru: "Работа с нами",
     title_en: "Work with us",
     desc_ru:
-      `Если вы разделяете наши принципы и хотите<br/>работать с нами, пишите на <a href="mailto:hello@ts.agency" target="_top">hello@ts.agency.</a><br/>Мы сохраняем все резюме и связываемся<br/>с кандидатами, когда появляются вакансии.`,
+      `Если вы разделяете наши принципы и хотите<br/>работать с нами, пишите на <a href="mailto:hello@ts.agency" target="_top" style="color: red">hello@ts.agency.</a><br/>Мы сохраняем все резюме и связываемся<br/>с кандидатами, когда появляются вакансии.`,
     desc_en:
-      "Contact us at hello@ts.agency if you want to work<br/>with us. We save all CVs and contact candidates<br/>when we have vacancies."
+      `Contact us at <a href="mailto:hello@ts.agency" target="_top" style="color: red">hello@ts.agency.</a> if you want to work<br/>with us. We save all CVs and contact candidates<br/>when we have vacancies.`
   }
 ];
 export default principles
