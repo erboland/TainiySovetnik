@@ -1,5 +1,5 @@
 import { StyleSheet } from 'aphrodite';
-const imgWidth = '75vw';
+const imgWidth = '85vw';
 const imgHeight = imgWidth;
 const styles = StyleSheet.create({
     page: {

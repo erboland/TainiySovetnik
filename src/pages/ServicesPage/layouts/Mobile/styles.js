@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
     card:{
       display: 'flex',
       flexDirection: "column",
-      marginTop:'5vh'
+      marginTop:'5vh',
+      alignItems: 'flex-start'
     },
     hWrap:{
         width: "100%"
@@ -57,9 +58,9 @@ const styles = StyleSheet.create({
     btnWrap:{
         position: 'relative',
         bottom: "10px",
-        marginLeft: "20px",
         marginTop: '5vh',
-        zIndex: 10
+        zIndex: 10,
+        justifyContent: 'flex-start'
     },
     swiper:{
         padding: '0 20px'

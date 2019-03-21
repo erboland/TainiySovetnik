@@ -3,7 +3,6 @@ import team from '../../../../database/team/arr';
 import { css } from 'aphrodite';
 import styles from './styles';
 import './Desktop.css';
-import HorizontalScroll from 'react-scroll-horizontal';
 
 export default class Desktop extends Component {
 
@@ -27,12 +26,6 @@ export default class Desktop extends Component {
                 </div>
               ))}
         </div>
-          
-        
-          
-            
-              
-
       </Fragment>
     )
   }

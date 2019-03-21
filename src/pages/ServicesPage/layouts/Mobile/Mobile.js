@@ -48,7 +48,7 @@ export default class Mobile extends Component {
                     <p className={css(styles.h)}>{this.props.lang === 'ru' ? item.name_ru : item.name_en}</p>
                     <p className={css(styles.t)}>{this.props.lang === 'ru' ? item.text_ru : item.text_en}</p>
                   </div>
-                  <div className={css(styles.btnWrap)}>
+                  <div className={css(styles.btnWrap)} style={{ marginLeft: '5vw' }}>
                     <div className={css(styles.btnInside)}>
                       {!this.state.isMenuOpen && (
                         <p className={css(styles.back)} onClick={this.menuHandler}>
