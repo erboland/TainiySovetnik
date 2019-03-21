@@ -6,6 +6,7 @@ import './Desktop.css';
 import HorizontalScroll from 'react-scroll-horizontal';
 
 export default class Desktop extends Component {
+
   renderTeam = () => {
     
     return(

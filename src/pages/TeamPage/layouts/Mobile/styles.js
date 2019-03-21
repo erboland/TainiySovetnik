@@ -4,17 +4,17 @@ const imgHeight = imgWidth;
 const styles = StyleSheet.create({
     page: {
       height: '100%',
-      width: '100%',
+      width: '100vw',
       display: 'flex',
       flexDirection: 'row',
       overflowX: 'scroll',
       overflowY: 'hidden',
       boxSizing: 'border-box',
-      padding: '0 50px',
+      padding: '0 5vw',
     },
     member: {
       height: '100%',
-      width: '80vw',
+      width: '100vw',
       flexShrink: 0,
       display: 'flex',
       flexDirection: 'column',

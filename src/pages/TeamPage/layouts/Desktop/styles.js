@@ -8,16 +8,15 @@ const styles = StyleSheet.create({
     },
     teamWrap: {
       height: '60vh',
-      width: window.innerWidth,
+      width: '70vw',
       backgroundColor: 'white',
       display: 'flex',
       boxSizing: 'border-box',
-      padding: `0 0  0 0`,
+      padding: `0 0 0 0`,
       marginLeft: '30vw',
       marginTop: '10vh',
-      // overflowX: 'scroll',
-      overflowY: 'hidden',
-      flexDirection: 'row'
+      overflowX: 'scroll'
+
     },
     member: {
       height: '100%',

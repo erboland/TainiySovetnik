@@ -1,5 +1,7 @@
-.scroll-horizontal {
-    overflow-y: hidden;
+.hScroll {
+    overflow-x: scroll;
+display: flex;
+flex-direction: row;
 }
 .scroll-horizontal::-webkit-scrollbar {
     height: 20px;
@@ -9,11 +11,14 @@
     background: black;
     border-top: 9px solid white;
     border-bottom: 9px solid white;
+    width: 2vw !important;
+    background-clip: content-box;
 }
  
 .scroll-horizontal::-webkit-scrollbar-thumb {
     background: black;
     border-top: 7px solid white;
     border-bottom: 7px solid white;
+    width: 2vw !important;
 }
 

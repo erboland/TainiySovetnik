@@ -24,11 +24,12 @@ const styles = StyleSheet.create({
         fontSize: "20px",
         lineHeight: "30px",
         fontWeight: 900,
-        marginBottom: '20px',
+        marginBottom: '20px'
     },
     card:{
       display: 'flex',
       flexDirection: "column",
+      marginTop:'5vh'
     },
     hWrap:{
         width: "100%"
@@ -39,11 +40,11 @@ const styles = StyleSheet.create({
         fontFamily: "SFUIDisplay-Semibold",
     },
     t:{
-        fontSize: "8px",
+        fontSize: "3vh",
         fontFamily: 'SFUIDisplay-Light',
         fontWeight: 300,
         margin: "10px 20px 0",
-        lineHeight: "14px"
+        // lineHeight: "14px"
         
     },
     back:{

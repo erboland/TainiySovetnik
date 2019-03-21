@@ -9,7 +9,7 @@ export default class Mobile extends Component {
     return (
 
       <div className={css(styles.page)}>
-      <HorizontalScroll reverseScroll="true">
+      <HorizontalScroll reverseScroll="true" style={{width: '100vw'}}>
         {team.map((member, i)=>(
           <div className={css(styles.member)} key={i}>
             <div style={{height: window.innerHeight*40/100}} className={css(styles.aye)}>
