@@ -11,7 +11,7 @@ export default class Desktop extends Component {
     
     return(
       <Fragment>
-        <HorizontalScroll className="hScroll" reverseScroll="true" style={{overflowY: "hidden"}}>
+        <div className="hScroll" reverseScroll="true" style={{overflowY: "hidden"}}>
         {team.map((member, i)=>(
                 <div className={css(styles.member)} style={{ marginRight: 20 }} key={i}>
                   <div className={css(styles.main)}>
@@ -26,7 +26,7 @@ export default class Desktop extends Component {
                   </div>
                 </div>
               ))}
-        </HorizontalScroll>
+        </div>
           
         
           
