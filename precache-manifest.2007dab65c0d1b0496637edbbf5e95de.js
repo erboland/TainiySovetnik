@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/1.2e09e796.jpg"
   },
   {
-    "revision": "6273a2bd77a301200747",
+    "revision": "4bc474c65ce88257105a",
     "url": "/TainiySovetnik/static/css/main.9614f95f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/js/runtime~main.fff6c845.js"
   },
   {
-    "revision": "10fa4b03710e9111a739",
-    "url": "/TainiySovetnik/static/js/2.10fa4b03.chunk.js"
+    "revision": "e0fdccf60feefb7e8401",
+    "url": "/TainiySovetnik/static/js/2.e0fdccf6.chunk.js"
   },
   {
     "revision": "5fa88de44e9fbc2ccf7b2fb02b591da3",
@@ -152,8 +152,8 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/logo_main_black.0e5e63c4.svg"
   },
   {
-    "revision": "6273a2bd77a301200747",
-    "url": "/TainiySovetnik/static/js/main.6273a2bd.chunk.js"
+    "revision": "4bc474c65ce88257105a",
+    "url": "/TainiySovetnik/static/js/main.4bc474c6.chunk.js"
   },
   {
     "revision": "db81ccd667186762a64adb93493c19ea",
@@ -212,24 +212,24 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.40e8fc32.eot"
   },
   {
-    "revision": "0880836d4f0d1d7434602f6adf1f7f50",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.0880836d.svg"
-  },
-  {
     "revision": "a238b5332368fa8ecd97667250b650ba",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.a238b533.eot"
+  },
+  {
+    "revision": "0880836d4f0d1d7434602f6adf1f7f50",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Black.0880836d.svg"
   },
   {
     "revision": "068c565aedc22687a8522e9a5b328d10",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Heavy.068c565a.woff"
   },
   {
-    "revision": "507054bc3d286a2dff94c775600a688b",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Heavy.507054bc.eot"
+    "revision": "7942efce004239cf6de381405bc5f8a1",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Light.7942efce.woff"
   },
   {
-    "revision": "794456ba87071332613b68d8b6697b84",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.794456ba.svg"
+    "revision": "507054bc3d286a2dff94c775600a688b",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Heavy.507054bc.eot"
   },
   {
     "revision": "b4ea292f5251cbfa297db1dadf1c3a0d",
@@ -240,28 +240,24 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8814c349.woff"
   },
   {
-    "revision": "7942efce004239cf6de381405bc5f8a1",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Light.7942efce.woff"
+    "revision": "794456ba87071332613b68d8b6697b84",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Bold.794456ba.svg"
   },
   {
     "revision": "c08e2d1182f23271c57891edea1360ae",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Light.c08e2d11.svg"
   },
   {
-    "revision": "fa14a42a8d72f101e7dd867abc7f0d46",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.fa14a42a.eot"
-  },
-  {
     "revision": "71d685cfec33c6cb7e81335bf63d9ea6",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.71d685cf.eot"
   },
   {
-    "revision": "ebd6807160169965d6229e1b147c4d47",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.ebd68071.woff"
+    "revision": "fa14a42a8d72f101e7dd867abc7f0d46",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.fa14a42a.eot"
   },
   {
-    "revision": "8842d02e7bc9e8b8bc5f2e2aab654271",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8842d02e.svg"
+    "revision": "ebd6807160169965d6229e1b147c4d47",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.ebd68071.woff"
   },
   {
     "revision": "51a338fc35d07a92df83d679eba5a19e",
@@ -272,6 +268,10 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.2deead45.eot"
   },
   {
+    "revision": "8842d02e7bc9e8b8bc5f2e2aab654271",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Medium.8842d02e.svg"
+  },
+  {
     "revision": "09ca61642b3a3e8fef7095a68f6809a2",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Regular.09ca6164.svg"
   },
@@ -280,16 +280,16 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Thin.770caa5f.woff"
   },
   {
-    "revision": "5c2e7bd7046ba2c280aaa19a1c5bc909",
-    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.5c2e7bd7.svg"
-  },
-  {
     "revision": "95eac5b26f7d398c97d85c41c82bdd8b",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Thin.95eac5b2.eot"
   },
   {
     "revision": "206e9291ec5c5f57135449ac8a8c5908",
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Ultralight.206e9291.woff"
+  },
+  {
+    "revision": "5c2e7bd7046ba2c280aaa19a1c5bc909",
+    "url": "/TainiySovetnik/static/media/SFUIDisplay-Semibold.5c2e7bd7.svg"
   },
   {
     "revision": "1cd0634234891363b9e5d6cc14a2fffc",
@@ -304,7 +304,7 @@ self.__precacheManifest = [
     "url": "/TainiySovetnik/static/media/SFUIDisplay-Ultralight.71748160.svg"
   },
   {
-    "revision": "52c40fdad3adb3ba90a1f63df7bbc66c",
+    "revision": "842e30228f9ad5e6a84436362ab3547f",
     "url": "/TainiySovetnik/index.html"
   }
 ];
