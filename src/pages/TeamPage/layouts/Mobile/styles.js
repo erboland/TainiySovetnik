@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
       display: 'flex',
       flexDirection: 'row',
       overflowX: 'scroll',
-      overflowY: 'hidden',
+      overflowY: 'visible',
       boxSizing: 'border-box',
       padding: '0 5vw',
     },

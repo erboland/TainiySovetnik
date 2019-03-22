@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { css } from "aphrodite";
 import styles from "./styles";
-import Ionicons from "react-ionicons";
 export default class Text1 extends Component {
   state = {
     isOpen: "false"
