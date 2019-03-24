@@ -4,6 +4,7 @@ export default class Home extends Component {
   componentDidMount = () => {
     this.props.handleColor("black");
     this.props.handleHeader(this.props.lang === "ru" ? "Привет" : "Hello");
+    console.log('hellooooooo')
   };
   componentDidUpdate = (prevProps) =>{
     if (this.props.lang !== prevProps.lang) {

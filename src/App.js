@@ -158,7 +158,7 @@ class App extends Component {
             <Switch>
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/"}
+                path={"/"}
                 render={props => (
                   <Home
                     {...props}
@@ -172,7 +172,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/test"}
+                path={"/test"}
                 render={props => (
                   <Test
                     {...props}
@@ -185,7 +185,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/team"}
+                path={"/team"}
                 render={props => (
                   <Team
                     {...props}
@@ -198,7 +198,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/about"}
+                path={"/about"}
                 render={props => (
                   <About
                     {...props}
@@ -211,7 +211,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/join_us"}
+                path={"/join_us"}
                 render={props => (
                   <JoinUs
                     {...props}
@@ -224,7 +224,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/services"}
+                path={"/services"}
                 render={props => (
                   <Services
                     {...props}
@@ -237,7 +237,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/feedback"}
+                path={"/feedback"}
                 render={props => (
                   <Feedback
                     {...props}
@@ -250,7 +250,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio"}
+                path={"/portfolio"}
                 render={props => (
                   <Porfolio
                     {...props}
@@ -263,7 +263,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/hnm"}
+                path={"/portfolio/hnm"}
                 render={props => (
                   <HNM
                     {...props}
@@ -276,7 +276,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/png"}
+                path={"/portfolio/png"}
                 render={props => (
                   <PNG
                     {...props}
@@ -289,7 +289,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/ritz"}
+                path={"/portfolio/ritz"}
                 render={props => (
                   <Ritz
                     {...props}
@@ -301,7 +301,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/visa"}
+                path={"/portfolio/visa"}
                 render={props => (
                   <Visa
                     {...props}
@@ -314,7 +314,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/xerox"}
+                path={"/portfolio/xerox"}
                 render={props => (
                   <Xerox
                     {...props}
@@ -326,7 +326,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/maggi"}
+                path={"/portfolio/maggi"}
                 render={props => (
                   <Maggi
                     {...props}
@@ -339,7 +339,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/gedeon"}
+                path={"/portfolio/gedeon"}
                 render={props => (
                   <Gedeon
                     {...props}
@@ -351,7 +351,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/samsung"}
+                path={"/portfolio/samsung"}
                 render={props => (
                   <Samsung
                     {...props}
@@ -363,7 +363,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/bta_bank"}
+                path={"/portfolio/bta_bank"}
                 render={props => (
                   <BtaBank
                     {...props}
@@ -375,7 +375,7 @@ class App extends Component {
               />
               <Route
                 exact
-                path={process.env.PUBLIC_URL + "/portfolio/tasty_kitchen"}
+                path={"/portfolio/tasty_kitchen"}
                 render={props => (
                   <TastyKitchen
                     {...props}

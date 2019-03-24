@@ -8,7 +8,7 @@ export default class Logo extends Component {
   render() {
     return (
       <div className={css(styles.wrap)}>
-        <NavLink to={process.env.PUBLIC_URL + "/"}>
+        <NavLink to={"/"}>
           {this.props.isHeaderBlack ? (
             <img
               style={{ width: "150px", margin: "80px 80px 0 0" }}

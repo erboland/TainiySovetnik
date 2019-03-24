@@ -16,35 +16,35 @@ export default class Modal extends Component {
           <div className={css(styles.modal_links_wrapper)}>
             <NavLink
               onClick={this.props.handleModal}
-              to={process.env.PUBLIC_URL + "/about"}
+              to={"/about"}
               className={`cwhite`}
             >
               {this.props.lang === "ru" ? "О нас" : "About Us"}
             </NavLink>
             <NavLink
               onClick={this.props.handleModal}
-              to={process.env.PUBLIC_URL + "/services"}
+              to={"/services"}
               className={`cwhite`}
             >
               {this.props.lang === "ru" ? "Услуги" : "Services"}
             </NavLink>
             <NavLink
               onClick={this.props.handleModal}
-              to={process.env.PUBLIC_URL + "/portfolio"}
+              to={"/portfolio"}
               className={`cwhite`}
             >
               {this.props.lang === "ru" ? "Кейсы" : "Cases"}
             </NavLink>
             <NavLink
               onClick={this.props.handleModal}
-              to={process.env.PUBLIC_URL + "/team"}
+              to={"/team"}
               className={`cwhite`}
             >
               {this.props.lang === "ru" ? "Команда" : "Our Team"}
             </NavLink>
             <NavLink
               onClick={this.props.handleModal}
-              to={process.env.PUBLIC_URL + "/join_us"}
+              to={"/join_us"}
               className={`cwhite`}
             >
               {this.props.lang === "ru" ? "Хочу в советники" : "Work with us"}

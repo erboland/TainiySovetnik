@@ -28,7 +28,8 @@ export default class Partners extends Component {
             width: "90%",
             display: "flex",
             flexWrap: "wrap",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
+            alignItems: 'center'
           }}
         >
           {arr.map((item, i) => {
